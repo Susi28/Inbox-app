@@ -1,0 +1,27 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            client-id: Iv1.f9361e0e0e504f8b
+            client-secret: 8b4cdf414b14ca5c5c2536bff8b6503c1555e66e
+  data:
+    keyspace-name: main1
+    username: pmgeGBNwdvwsKZZnFbLIFpns
+    password: epwJ.78YU+NFu1N59mJZlEwRCZ.rmgPYbSsK123eXDTbYbkHYf6it7RsKpqTO5RNp7uT7Rm+nA35++t3vLrql9mhSfDIpexBmYwtvlci0uMQ9Z83oxZOZhFijJ4c6RSi
+    schema-action: recreate-drop-unused
+    request:
+      timeout: 10s
+    collection:
+      connect-timeout: 10s
+      init-query-timeout: 10s
+
+  astra.db:
+    id: b0483029-77d2-4cb7-837d-c5c35a7d784f-1
+    region: europe-west1
+    keyspace: main1
+    application.token: AstraCS:pmgeGBNwdvwsKZZnFbLIFpns:2f173e10ecc14548b36882cad600b084aceaff29afd0be8686cfd01f955f26f1
+
+  datastax.astra:
+    secure-connect-bundle: secure-connect.zip
